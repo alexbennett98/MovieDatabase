@@ -56,6 +56,7 @@ namespace MovieDatabase
             {
                 endpoints.MapControllerRoute(
                     name: "default",
+                    //Controller changed to the one I actually used
                     pattern: "{controller=AddMovies}/{action=Index}/{id?}");
             });
             SeedData.EnsurePopulated(app);

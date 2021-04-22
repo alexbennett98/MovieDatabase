@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MovieDatabase.Models;
 
+//This is the controller that takes place of the default controller
 namespace MovieDatabase.Controllers
 {
     public class AddMoviesController : Controller

@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+//Used to populate the database with some prelimenary data
 namespace MovieDatabase.Models
 {
     public class SeedData
